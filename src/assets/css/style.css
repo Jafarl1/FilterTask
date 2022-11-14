@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.app {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    border: 1px solid gray;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.filters,
+.users {
+    width: 50%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+select{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+.inp{
+    margin-top: 10px;
+}
