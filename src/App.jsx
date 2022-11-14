@@ -25,13 +25,11 @@ function App() {
 
   const selectSuite = (suite) => {
     let temp = users.filter(e => e.address.suite.includes(suite));
-    console.log(temp);
     setFiltered([...temp]);
   };
 
   const selectApartment = (apt) => {
     let temp = users.filter(e => e.address.suite.includes(apt));
-    console.log(temp);
     setFiltered([...temp])
   };
 
